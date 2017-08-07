@@ -7,6 +7,7 @@
 //
 
 #import "TSMethod.h"
+#import "XMLDocument.h"
 
 @interface TSMethod ()
 
@@ -21,6 +22,12 @@
 - (instancetype) init
 {
     self = [super init];
+    
+    XMLNode *node = [[XMLNode alloc] initWithName:@"hello"];
+    
+    XMLDocument *doc = [[XMLDocument alloc] initWithRoot:node];
+    
+    NSLog(@"%@",doc.XMLDocumentString);
     
     return self;
 }
