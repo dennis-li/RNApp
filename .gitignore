@@ -3,3 +3,4 @@ RactComponents/
 GameLive/
 Pods/
 Podfile.lock
+*.xcuserstate
