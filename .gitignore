@@ -1,6 +1,7 @@
 RactComponents/
 .DS_Store
 GameLive/
-Pods/
+Pods/*
 Podfile.lock
 *.xcuserstate
+*xcconfig
