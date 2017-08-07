@@ -1,5 +1,5 @@
 RactComponents/
-DS_Store
+.DS_Store
 GameLive/
 Pods/
 Podfile.lock
