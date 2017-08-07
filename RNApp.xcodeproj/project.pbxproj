@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0573366E99A2727480135062 /* libPods-RNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */; };
+		1C5F93BF6AA4ECB62DADDC9F /* libPods-RNAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA7AE8B1B8661190931170F /* libPods-RNAppUITests.a */; };
+		7C7A7517C14CFFB8F53ABDCA /* libPods-RNAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B09AAD266057154525A200 /* libPods-RNAppTests.a */; };
+		A6F087511F3465D600BC2201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087501F3465D600BC2201 /* main.m */; };
+		A6F087541F3465D600BC2201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087531F3465D600BC2201 /* AppDelegate.m */; };
+		A6F087571F3465D600BC2201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087561F3465D600BC2201 /* ViewController.m */; };
+		A6F0875A1F3465D600BC2201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F087581F3465D600BC2201 /* Main.storyboard */; };
+		A6F0875C1F3465D600BC2201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F0875B1F3465D600BC2201 /* Assets.xcassets */; };
+		A6F0875F1F3465D600BC2201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F0875D1F3465D600BC2201 /* LaunchScreen.storyboard */; };
+		A6F0876A1F3465D700BC2201 /* RNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087691F3465D700BC2201 /* RNAppTests.m */; };
+		A6F087751F3465D700BC2201 /* RNAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087741F3465D700BC2201 /* RNAppUITests.m */; };
+		A6F0878A1F3465EE00BC2201 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087831F3465EE00BC2201 /* CourseViewController.m */; };
+		A6F0878B1F3465EE00BC2201 /* GradeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087851F3465EE00BC2201 /* GradeViewController.m */; };
+		A6F0878C1F3465EE00BC2201 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087871F3465EE00BC2201 /* MessageViewController.m */; };
+		A6F0878D1F3465EE00BC2201 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087891F3465EE00BC2201 /* MineViewController.m */; };
+		A6F087901F3465FA00BC2201 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */; };
+		A6F087931F3598B700BC2201 /* TSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087921F3598B700BC2201 /* TSMethod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6F087661F3465D700BC2201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F087441F3465D600BC2201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F0874B1F3465D600BC2201;
+			remoteInfo = RNApp;
+		};
+		A6F087711F3465D700BC2201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6F087441F3465D600BC2201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6F0874B1F3465D600BC2201;
+			remoteInfo = RNApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30B09AAD266057154525A200 /* libPods-RNAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EA4DACF9142ED6B5F5C6A9 /* Pods-RNAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppTests/Pods-RNAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		800DF6D6E563C97B831E5231 /* Pods-RNAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		865D06EA9EE43201009B1CDA /* Pods-RNAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppTests/Pods-RNAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BA7AE8B1B8661190931170F /* libPods-RNAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0874C1F3465D600BC2201 /* RNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F087501F3465D600BC2201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6F087521F3465D600BC2201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6F087531F3465D600BC2201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6F087551F3465D600BC2201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6F087561F3465D600BC2201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6F087591F3465D600BC2201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6F0875B1F3465D600BC2201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6F0875E1F3465D600BC2201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6F087601F3465D600BC2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F087651F3465D700BC2201 /* RNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F087691F3465D700BC2201 /* RNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppTests.m; sourceTree = "<group>"; };
+		A6F0876B1F3465D700BC2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F087701F3465D700BC2201 /* RNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F087741F3465D700BC2201 /* RNAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppUITests.m; sourceTree = "<group>"; };
+		A6F087761F3465D700BC2201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6F087821F3465EE00BC2201 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		A6F087831F3465EE00BC2201 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		A6F087841F3465EE00BC2201 /* GradeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeViewController.h; sourceTree = "<group>"; };
+		A6F087851F3465EE00BC2201 /* GradeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeViewController.m; sourceTree = "<group>"; };
+		A6F087861F3465EE00BC2201 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		A6F087871F3465EE00BC2201 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		A6F087881F3465EE00BC2201 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		A6F087891F3465EE00BC2201 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		A6F0878E1F3465FA00BC2201 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		A6F087911F3598B700BC2201 /* TSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMethod.h; sourceTree = "<group>"; };
+		A6F087921F3598B700BC2201 /* TSMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMethod.m; sourceTree = "<group>"; };
+		CFF03FA4627ED3DA0DD343A9 /* Pods-RNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNApp/Pods-RNApp.release.xcconfig"; sourceTree = "<group>"; };
+		D39932E3AD3556701A7A601B /* Pods-RNAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6821C99C1A77DA4F082E433 /* Pods-RNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNApp/Pods-RNApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F087491F3465D600BC2201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0573366E99A2727480135062 /* libPods-RNApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F087621F3465D700BC2201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7A7517C14CFFB8F53ABDCA /* libPods-RNAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0876D1F3465D700BC2201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5F93BF6AA4ECB62DADDC9F /* libPods-RNAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		388A41EC742309A4FF652961 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */,
+				30B09AAD266057154525A200 /* libPods-RNAppTests.a */,
+				9BA7AE8B1B8661190931170F /* libPods-RNAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F087431F3465D600BC2201 = {
+			isa = PBXGroup;
+			children = (
+				A6F0874E1F3465D600BC2201 /* RNApp */,
+				A6F087681F3465D700BC2201 /* RNAppTests */,
+				A6F087731F3465D700BC2201 /* RNAppUITests */,
+				A6F0874D1F3465D600BC2201 /* Products */,
+				DC2522DE5D468F57894301BB /* Pods */,
+				388A41EC742309A4FF652961 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F0874D1F3465D600BC2201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0874C1F3465D600BC2201 /* RNApp.app */,
+				A6F087651F3465D700BC2201 /* RNAppTests.xctest */,
+				A6F087701F3465D700BC2201 /* RNAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F0874E1F3465D600BC2201 /* RNApp */ = {
+			isa = PBXGroup;
+			children = (
+				A6F087821F3465EE00BC2201 /* CourseViewController.h */,
+				A6F087831F3465EE00BC2201 /* CourseViewController.m */,
+				A6F087841F3465EE00BC2201 /* GradeViewController.h */,
+				A6F087851F3465EE00BC2201 /* GradeViewController.m */,
+				A6F087861F3465EE00BC2201 /* MessageViewController.h */,
+				A6F087871F3465EE00BC2201 /* MessageViewController.m */,
+				A6F087881F3465EE00BC2201 /* MineViewController.h */,
+				A6F087891F3465EE00BC2201 /* MineViewController.m */,
+				A6F0874F1F3465D600BC2201 /* Supporting Files */,
+				A6F087911F3598B700BC2201 /* TSMethod.h */,
+				A6F087921F3598B700BC2201 /* TSMethod.m */,
+			);
+			path = RNApp;
+			sourceTree = "<group>";
+		};
+		A6F0874F1F3465D600BC2201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0878E1F3465FA00BC2201 /* MainTabBarController.h */,
+				A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */,
+				A6F087521F3465D600BC2201 /* AppDelegate.h */,
+				A6F087531F3465D600BC2201 /* AppDelegate.m */,
+				A6F087551F3465D600BC2201 /* ViewController.h */,
+				A6F087561F3465D600BC2201 /* ViewController.m */,
+				A6F087581F3465D600BC2201 /* Main.storyboard */,
+				A6F0875B1F3465D600BC2201 /* Assets.xcassets */,
+				A6F0875D1F3465D600BC2201 /* LaunchScreen.storyboard */,
+				A6F087601F3465D600BC2201 /* Info.plist */,
+				A6F087501F3465D600BC2201 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6F087681F3465D700BC2201 /* RNAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F087691F3465D700BC2201 /* RNAppTests.m */,
+				A6F0876B1F3465D700BC2201 /* Info.plist */,
+			);
+			path = RNAppTests;
+			sourceTree = "<group>";
+		};
+		A6F087731F3465D700BC2201 /* RNAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6F087741F3465D700BC2201 /* RNAppUITests.m */,
+				A6F087761F3465D700BC2201 /* Info.plist */,
+			);
+			path = RNAppUITests;
+			sourceTree = "<group>";
+		};
+		DC2522DE5D468F57894301BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6821C99C1A77DA4F082E433 /* Pods-RNApp.debug.xcconfig */,
+				CFF03FA4627ED3DA0DD343A9 /* Pods-RNApp.release.xcconfig */,
+				37EA4DACF9142ED6B5F5C6A9 /* Pods-RNAppTests.debug.xcconfig */,
+				865D06EA9EE43201009B1CDA /* Pods-RNAppTests.release.xcconfig */,
+				800DF6D6E563C97B831E5231 /* Pods-RNAppUITests.debug.xcconfig */,
+				D39932E3AD3556701A7A601B /* Pods-RNAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F0874B1F3465D600BC2201 /* RNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F087791F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNApp" */;
+			buildPhases = (
+				626AE67994217D9F85292824 /* [CP] Check Pods Manifest.lock */,
+				A6F087481F3465D600BC2201 /* Sources */,
+				A6F087491F3465D600BC2201 /* Frameworks */,
+				A6F0874A1F3465D600BC2201 /* Resources */,
+				3643A51825E980DB1F39204A /* [CP] Embed Pods Frameworks */,
+				6510CCEDB332B5BDFF53C0FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNApp;
+			productName = RNApp;
+			productReference = A6F0874C1F3465D600BC2201 /* RNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6F087641F3465D700BC2201 /* RNAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0877C1F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNAppTests" */;
+			buildPhases = (
+				33C5BC34A46C29F0070A6503 /* [CP] Check Pods Manifest.lock */,
+				A6F087611F3465D700BC2201 /* Sources */,
+				A6F087621F3465D700BC2201 /* Frameworks */,
+				A6F087631F3465D700BC2201 /* Resources */,
+				655AAC2EB240EDAA0AFD2358 /* [CP] Embed Pods Frameworks */,
+				43BC9B216E4F3201ABDA4C69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F087671F3465D700BC2201 /* PBXTargetDependency */,
+			);
+			name = RNAppTests;
+			productName = RNAppTests;
+			productReference = A6F087651F3465D700BC2201 /* RNAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6F0876F1F3465D700BC2201 /* RNAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0877F1F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNAppUITests" */;
+			buildPhases = (
+				E58A060D55486031A945AB59 /* [CP] Check Pods Manifest.lock */,
+				A6F0876C1F3465D700BC2201 /* Sources */,
+				A6F0876D1F3465D700BC2201 /* Frameworks */,
+				A6F0876E1F3465D700BC2201 /* Resources */,
+				DF6FB48D745378126486DD5D /* [CP] Embed Pods Frameworks */,
+				EF035E8FF67F523F6DBEEF2A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6F087721F3465D700BC2201 /* PBXTargetDependency */,
+			);
+			name = RNAppUITests;
+			productName = RNAppUITests;
+			productReference = A6F087701F3465D700BC2201 /* RNAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F087441F3465D600BC2201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = iqiyi;
+				TargetAttributes = {
+					A6F0874B1F3465D600BC2201 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A6F087641F3465D700BC2201 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6F0874B1F3465D600BC2201;
+					};
+					A6F0876F1F3465D700BC2201 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6F0874B1F3465D600BC2201;
+					};
+				};
+			};
+			buildConfigurationList = A6F087471F3465D600BC2201 /* Build configuration list for PBXProject "RNApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6F087431F3465D600BC2201;
+			productRefGroup = A6F0874D1F3465D600BC2201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F0874B1F3465D600BC2201 /* RNApp */,
+				A6F087641F3465D700BC2201 /* RNAppTests */,
+				A6F0876F1F3465D700BC2201 /* RNAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F0874A1F3465D600BC2201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0875F1F3465D600BC2201 /* LaunchScreen.storyboard in Resources */,
+				A6F0875C1F3465D600BC2201 /* Assets.xcassets in Resources */,
+				A6F0875A1F3465D600BC2201 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F087631F3465D700BC2201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0876E1F3465D700BC2201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33C5BC34A46C29F0070A6503 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3643A51825E980DB1F39204A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNApp/Pods-RNApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43BC9B216E4F3201ABDA4C69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNAppTests/Pods-RNAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		626AE67994217D9F85292824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6510CCEDB332B5BDFF53C0FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNApp/Pods-RNApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		655AAC2EB240EDAA0AFD2358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNAppTests/Pods-RNAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6FB48D745378126486DD5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58A060D55486031A945AB59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF035E8FF67F523F6DBEEF2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F087481F3465D600BC2201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0878C1F3465EE00BC2201 /* MessageViewController.m in Sources */,
+				A6F0878D1F3465EE00BC2201 /* MineViewController.m in Sources */,
+				A6F087571F3465D600BC2201 /* ViewController.m in Sources */,
+				A6F0878A1F3465EE00BC2201 /* CourseViewController.m in Sources */,
+				A6F087541F3465D600BC2201 /* AppDelegate.m in Sources */,
+				A6F087931F3598B700BC2201 /* TSMethod.m in Sources */,
+				A6F087511F3465D600BC2201 /* main.m in Sources */,
+				A6F087901F3465FA00BC2201 /* MainTabBarController.m in Sources */,
+				A6F0878B1F3465EE00BC2201 /* GradeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F087611F3465D700BC2201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0876A1F3465D700BC2201 /* RNAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F0876C1F3465D700BC2201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F087751F3465D700BC2201 /* RNAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6F087671F3465D700BC2201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F0874B1F3465D600BC2201 /* RNApp */;
+			targetProxy = A6F087661F3465D700BC2201 /* PBXContainerItemProxy */;
+		};
+		A6F087721F3465D700BC2201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6F0874B1F3465D600BC2201 /* RNApp */;
+			targetProxy = A6F087711F3465D700BC2201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6F087581F3465D600BC2201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F087591F3465D600BC2201 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6F0875D1F3465D600BC2201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6F0875E1F3465D600BC2201 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6F087771F3465D700BC2201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F087781F3465D700BC2201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0877A1F3465D700BC2201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6821C99C1A77DA4F082E433 /* Pods-RNApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6F0877B1F3465D700BC2201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF03FA4627ED3DA0DD343A9 /* Pods-RNApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6F0877D1F3465D700BC2201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EA4DACF9142ED6B5F5C6A9 /* Pods-RNAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNApp.app/RNApp";
+			};
+			name = Debug;
+		};
+		A6F0877E1F3465D700BC2201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865D06EA9EE43201009B1CDA /* Pods-RNAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNApp.app/RNApp";
+			};
+			name = Release;
+		};
+		A6F087801F3465D700BC2201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800DF6D6E563C97B831E5231 /* Pods-RNAppUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RNApp;
+			};
+			name = Debug;
+		};
+		A6F087811F3465D700BC2201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39932E3AD3556701A7A601B /* Pods-RNAppUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = RNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lixu.RNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RNApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F087471F3465D600BC2201 /* Build configuration list for PBXProject "RNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F087771F3465D700BC2201 /* Debug */,
+				A6F087781F3465D700BC2201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F087791F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0877A1F3465D700BC2201 /* Debug */,
+				A6F0877B1F3465D700BC2201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0877C1F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0877D1F3465D700BC2201 /* Debug */,
+				A6F0877E1F3465D700BC2201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0877F1F3465D700BC2201 /* Build configuration list for PBXNativeTarget "RNAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F087801F3465D700BC2201 /* Debug */,
+				A6F087811F3465D700BC2201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6F087441F3465D600BC2201 /* Project object */;
+}
