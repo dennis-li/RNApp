@@ -1,6 +1,6 @@
-RactComponents/
 .DS_Store
 GameLive/
+RNGameLive/
 Pods/*
 Podfile.lock
 *.xcuserstate
