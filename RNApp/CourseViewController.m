@@ -8,6 +8,7 @@
 
 #import "CourseViewController.h"
 #import <React/RCTRootView.h>
+#import "GameLiveViewController.h"
 
 
 @interface CourseViewController ()
@@ -30,6 +31,13 @@
 
 - (void) reactNative:(id) sender
 {
+    GameLiveViewController *Game = [GameLiveViewController new];
+    
+    [self presentViewController:Game animated:YES completion:^{
+        
+    }];
+    
+    return;
     NSURL *jsCodeLocation = [NSURL
                              URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
     RCTRootView *rootView =

@@ -21,7 +21,7 @@
 
 - (instancetype) init
 {
-    self = [super init];
+    self = [super init]; 
     
     XMLNode *node = [[XMLNode alloc] initWithName:@"hello"];
     
