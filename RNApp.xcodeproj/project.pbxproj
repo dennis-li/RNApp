@@ -23,9 +23,7 @@
 		A6F0878C1F3465EE00BC2201 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087871F3465EE00BC2201 /* MessageViewController.m */; };
 		A6F0878D1F3465EE00BC2201 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087891F3465EE00BC2201 /* MineViewController.m */; };
 		A6F087901F3465FA00BC2201 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */; };
-		A6F088BD1F3C991800BC2201 /* libGameLive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F088BC1F3C991800BC2201 /* libGameLive.a */; };
-		A6F088CB1F3F322200BC2201 /* TSMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F088C81F3F322200BC2201 /* TSMethod.m */; };
-		A6F088CC1F3F322200BC2201 /* GameLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F088CA1F3F322200BC2201 /* GameLiveViewController.m */; };
+		A6F091D01F471FD300BC2201 /* libVIPCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F091CF1F471FD300BC2201 /* libVIPCenter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,10 +76,7 @@
 		A6F0878E1F3465FA00BC2201 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
 		A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		A6F088BC1F3C991800BC2201 /* libGameLive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGameLive.a; path = "../GameLive/build/Debug-iphoneos/libGameLive.a"; sourceTree = "<group>"; };
-		A6F088C71F3F322200BC2201 /* TSMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSMethod.h; sourceTree = "<group>"; };
-		A6F088C81F3F322200BC2201 /* TSMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSMethod.m; sourceTree = "<group>"; };
-		A6F088C91F3F322200BC2201 /* GameLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLiveViewController.h; sourceTree = "<group>"; };
-		A6F088CA1F3F322200BC2201 /* GameLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLiveViewController.m; sourceTree = "<group>"; };
+		A6F091CF1F471FD300BC2201 /* libVIPCenter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVIPCenter.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/RNApp-ggtxfufpdjhnzjhbbkhyzspaultg/Build/Products/Debug-iphonesimulator/VIPCenter/libVIPCenter.a"; sourceTree = "<group>"; };
 		CFF03FA4627ED3DA0DD343A9 /* Pods-RNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNApp/Pods-RNApp.release.xcconfig"; sourceTree = "<group>"; };
 		D39932E3AD3556701A7A601B /* Pods-RNAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F088BD1F3C991800BC2201 /* libGameLive.a in Frameworks */,
+				A6F091D01F471FD300BC2201 /* libVIPCenter.a in Frameworks */,
 				0573366E99A2727480135062 /* libPods-RNApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -120,6 +115,7 @@
 		388A41EC742309A4FF652961 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A6F091CF1F471FD300BC2201 /* libVIPCenter.a */,
 				A6F088BC1F3C991800BC2201 /* libGameLive.a */,
 				D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */,
 				30B09AAD266057154525A200 /* libPods-RNAppTests.a */,
@@ -161,10 +157,6 @@
 				A6F087871F3465EE00BC2201 /* MessageViewController.m */,
 				A6F087881F3465EE00BC2201 /* MineViewController.h */,
 				A6F087891F3465EE00BC2201 /* MineViewController.m */,
-				A6F088C71F3F322200BC2201 /* TSMethod.h */,
-				A6F088C81F3F322200BC2201 /* TSMethod.m */,
-				A6F088C91F3F322200BC2201 /* GameLiveViewController.h */,
-				A6F088CA1F3F322200BC2201 /* GameLiveViewController.m */,
 				A6F0874F1F3465D600BC2201 /* Supporting Files */,
 			);
 			path = RNApp;
@@ -510,10 +502,8 @@
 			files = (
 				A6F0878C1F3465EE00BC2201 /* MessageViewController.m in Sources */,
 				A6F0878D1F3465EE00BC2201 /* MineViewController.m in Sources */,
-				A6F088CC1F3F322200BC2201 /* GameLiveViewController.m in Sources */,
 				A6F087571F3465D600BC2201 /* ViewController.m in Sources */,
 				A6F0878A1F3465EE00BC2201 /* CourseViewController.m in Sources */,
-				A6F088CB1F3F322200BC2201 /* TSMethod.m in Sources */,
 				A6F087541F3465D600BC2201 /* AppDelegate.m in Sources */,
 				A6F087511F3465D600BC2201 /* main.m in Sources */,
 				A6F087901F3465FA00BC2201 /* MainTabBarController.m in Sources */,
