@@ -21,7 +21,7 @@ target 'RNApp' do
   end
 
 pod "React"
-#pod "VIPCenter"
+pod "VIPCenter"
 #pod "GameLive"
 
   # Explicitly include Yoga if you are using RN >= 0.42.0
