@@ -23,6 +23,7 @@ target 'RNApp' do
 pod "React"
 pod "RNVIPCenter"
 pod "DLModulesCenter"
+pod "RNMall"
 
   # Explicitly include Yoga if you are using RN >= 0.42.0
 #  pod "Yoga", :path => "./ReactComponents/node_modules/react-native/ReactCommon/yoga"
