@@ -10,6 +10,7 @@
 		0573366E99A2727480135062 /* libPods-RNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D295D501ED1E1A88DC78D4 /* libPods-RNApp.a */; };
 		1C5F93BF6AA4ECB62DADDC9F /* libPods-RNAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA7AE8B1B8661190931170F /* libPods-RNAppUITests.a */; };
 		7C7A7517C14CFFB8F53ABDCA /* libPods-RNAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30B09AAD266057154525A200 /* libPods-RNAppTests.a */; };
+		A61A771A1F500E5D000FD824 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = A61A77191F500E5D000FD824 /* main.jsbundle */; };
 		A6F087511F3465D600BC2201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087501F3465D600BC2201 /* main.m */; };
 		A6F087541F3465D600BC2201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087531F3465D600BC2201 /* AppDelegate.m */; };
 		A6F087571F3465D600BC2201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087561F3465D600BC2201 /* ViewController.m */; };
@@ -23,7 +24,6 @@
 		A6F0878C1F3465EE00BC2201 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087871F3465EE00BC2201 /* MessageViewController.m */; };
 		A6F0878D1F3465EE00BC2201 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F087891F3465EE00BC2201 /* MineViewController.m */; };
 		A6F087901F3465FA00BC2201 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F0878F1F3465FA00BC2201 /* MainTabBarController.m */; };
-		A6F091D01F471FD300BC2201 /* libVIPCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F091CF1F471FD300BC2201 /* libVIPCenter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +49,7 @@
 		800DF6D6E563C97B831E5231 /* Pods-RNAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppUITests/Pods-RNAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		865D06EA9EE43201009B1CDA /* Pods-RNAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNAppTests/Pods-RNAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		9BA7AE8B1B8661190931170F /* libPods-RNAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61A77191F500E5D000FD824 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		A6F0874C1F3465D600BC2201 /* RNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F087501F3465D600BC2201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6F087521F3465D600BC2201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,7 +89,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F091D01F471FD300BC2201 /* libVIPCenter.a in Frameworks */,
 				0573366E99A2727480135062 /* libPods-RNApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -127,6 +127,7 @@
 		A6F087431F3465D600BC2201 = {
 			isa = PBXGroup;
 			children = (
+				A61A77191F500E5D000FD824 /* main.jsbundle */,
 				A6F0874E1F3465D600BC2201 /* RNApp */,
 				A6F087681F3465D700BC2201 /* RNAppTests */,
 				A6F087731F3465D700BC2201 /* RNAppUITests */,
@@ -329,6 +330,7 @@
 				A6F0875F1F3465D600BC2201 /* LaunchScreen.storyboard in Resources */,
 				A6F0875C1F3465D600BC2201 /* Assets.xcassets in Resources */,
 				A6F0875A1F3465D600BC2201 /* Main.storyboard in Resources */,
+				A61A771A1F500E5D000FD824 /* main.jsbundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
