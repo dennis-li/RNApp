@@ -9,6 +9,7 @@
 #import "CourseViewController.h"
 #import <React/RCTRootView.h>
 #import "GameLiveViewController.h"
+#import <DLModulesCenter/DLModulesCenter.h>
 
 
 @interface CourseViewController ()
@@ -31,6 +32,14 @@
 
 - (void) reactNative:(id) sender
 {
+    DLModuleParameter *params = [[DLModuleParameter alloc] init];
+    
+    params.originalParams = @{DLModuleMainSeviceID:@"66",@"subID":@"0"};
+    params.localParams = @{@"rootVC":self};
+    
+    [DLModulesManager openModuleWithParams:params];
+    
+    return;
     GameLiveViewController *Game = [GameLiveViewController new];
     
     [self presentViewController:Game animated:YES completion:^{
