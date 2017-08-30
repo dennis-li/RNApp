@@ -7,7 +7,7 @@
 //
 
 #import "CourseViewController.h"
-#import <React/RCTRootView.h>
+#import "RCTRootView.h"
 #import "GameLiveViewController.h"
 #import <DLModulesCenter/DLModulesCenter.h>
 

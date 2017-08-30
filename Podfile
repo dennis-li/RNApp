@@ -20,7 +20,7 @@ target 'RNApp' do
     # Pods for testing
   end
 
-pod "React"
+pod "React_debug"
 pod "RNVIPCenter"
 pod "DLModulesCenter"
 pod "RNMall"
