@@ -8,7 +8,6 @@
 
 #import "CourseViewController.h"
 #import "RCTRootView.h"
-#import "GameLiveViewController.h"
 #import <DLModulesCenter/DLModulesCenter.h>
 
 
@@ -26,49 +25,33 @@
     button.frame = CGRectMake(100, 300, 100, 30);
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
-    [button setTitle:@"reactNative" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(reactNative:) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitle:@"商城业务" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(showMall:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UIButton *button1 = [UIButton new];
+    button1.frame = CGRectMake(100, 300, 100, 30);
+    button1.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button1];
+    [button1 setTitle:@"VIP业务" forState:UIControlStateNormal];
+    [button1 addTarget:self action:@selector(showVIPCenter:) forControlEvents:UIControlEventTouchUpInside];
 }
 
-- (void) reactNative:(id) sender
+- (void) showMall:(id) sender
 {
     DLModuleParameter *params = [[DLModuleParameter alloc] init];
     
-    params.originalParams = @{DLModuleMainSeviceID:@"66",@"subID":@"0"};
+    //66代表商城组件,0代表首页
+    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"RNMall",@"subID":@"main"};
     params.localParams = @{@"rootVC":self};
     
     [DLModulesManager openModuleWithParams:params];
     
     return;
-    GameLiveViewController *Game = [GameLiveViewController new];
+}
+
+- (void) showVIPCenter:(id) sender
+{
     
-    [self presentViewController:Game animated:YES completion:^{
-        
-    }];
-    
-    return;
-    NSURL *jsCodeLocation = [NSURL
-                             URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
-    RCTRootView *rootView =
-    [[RCTRootView alloc] initWithBundleURL : jsCodeLocation
-                         moduleName        : @"RNApp"
-                         initialProperties :
-     @{
-       @"scores" : @[
-               @{
-                   @"name" : @"Alex",
-                   @"value": @"42"
-                   },
-               @{
-                   @"name" : @"Joel",
-                   @"value": @"10"
-                   }
-               ]
-       }
-                          launchOptions    : nil];
-    UIViewController *vc = [[UIViewController alloc] init];
-    vc.view = rootView;
-    [self presentViewController:vc animated:YES completion:nil];
 }
 
 @end
