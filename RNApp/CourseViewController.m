@@ -22,7 +22,7 @@
     self.view.backgroundColor = [UIColor orangeColor];
     
     UIButton *button = [UIButton new];
-    button.frame = CGRectMake(100, 300, 100, 30);
+    button.frame = CGRectMake(100, 150, 100, 30);
     button.backgroundColor = [UIColor redColor];
     [self.view addSubview:button];
     [button setTitle:@"商城业务" forState:UIControlStateNormal];
@@ -40,18 +40,23 @@
 {
     DLModuleParameter *params = [[DLModuleParameter alloc] init];
     
-    //66代表商城组件,0代表首页
-    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"RNMall",@"subID":@"main"};
+    //RNMall代表商城组件,main代表首页
+    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"Mall",@"subID":@"main"};
     params.localParams = @{@"rootVC":self};
     
     [DLModulesManager openModuleWithParams:params];
     
-    return;
 }
 
 - (void) showVIPCenter:(id) sender
 {
+    DLModuleParameter *params = [[DLModuleParameter alloc] init];
     
+    //VIPCenter代表商城组件,mian代表首页
+    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"VIPCenter",@"subID":@"main"};
+    params.localParams = @{@"rootVC":self};
+    
+    [DLModulesManager openModuleWithParams:params];
 }
 
 @end
