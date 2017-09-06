@@ -41,7 +41,7 @@
     DLModuleParameter *params = [[DLModuleParameter alloc] init];
     
     //RNMall代表商城组件,main代表首页
-    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"Mall",@"subID":@"main"};
+    params.originalParams = @{MODULE_MAIN_SERVICE_ID:@"RNMall",@"subID":@"main"};
     params.localParams = @{@"rootVC":self};
     
     [DLModulesManager openModuleWithParams:params];
